@@ -6,7 +6,7 @@ const Contact = () => {
 <<<<<<< HEAD
     window.open("https://wa.me/553192518560", "_blank");
 =======
-    window.open("https://wa.me/5531925185560", "_blank");
+    window.open("https://wa.me/553192518560", "_blank");
 >>>>>>> 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
   };
 
