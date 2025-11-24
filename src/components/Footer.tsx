@@ -7,6 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold mb-2">
+              npm
               <span className="text-white">Marcenaria</span>{" "}
               <span className="text-primary">RC</span>
             </h3>
