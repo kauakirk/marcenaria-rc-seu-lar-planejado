@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://marcenaria-rc.lovable.app/sitemap.xml
