@@ -3,7 +3,11 @@ import { Phone, MessageCircle, Mail } from "lucide-react";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
+<<<<<<< HEAD
     window.open("https://wa.me/553192518560", "_blank");
+=======
+    window.open("https://wa.me/5531925185560", "_blank");
+>>>>>>> 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
   };
 
   return (
@@ -38,7 +42,11 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-2">Telefone</h3>
                   <a
+<<<<<<< HEAD
                     href="tel:+553192518560"
+=======
+                    href="tel:+5531925185560"
+>>>>>>> 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
                     className="text-white/80 hover:text-primary transition-colors"
                   >
                     (31) 9251-8560
@@ -84,8 +92,11 @@ const Contact = () => {
 
           {/* Service Area */}
           <div className="mt-12 text-center">
+            <p className="text-white/80 mb-2">
+              📍 R. Argentina, 273 - Novo Boa Vista, Contagem - MG
+            </p>
             <p className="text-white/60 text-sm">
-              📍 Atendemos Belo Horizonte e toda a região metropolitana
+              Atendemos Belo Horizonte e toda a região metropolitana
             </p>
           </div>
         </div>

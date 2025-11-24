@@ -14,16 +14,23 @@ const Footer = () => {
           </div>
 
           <div className="text-center md:text-right">
-            <p className="text-white/80 mb-1">
+            <p className="text-white/80 mb-2">
               <a
+<<<<<<< HEAD
                 href="tel:+553192518560"
+=======
+                href="tel:+5531925185560"
+>>>>>>> 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
                 className="hover:text-primary transition-colors"
               >
                 (31) 9251-8560
               </a>
             </p>
+            <p className="text-white/60 text-sm mb-1">
+              R. Argentina, 273 - Novo Boa Vista
+            </p>
             <p className="text-white/60 text-sm">
-              Belo Horizonte e Região Metropolitana
+              Contagem - MG
             </p>
           </div>
         </div>
