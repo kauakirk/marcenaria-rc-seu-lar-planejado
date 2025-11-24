@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-kitchen.jpg";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5531925185560", "_blank");
+    window.open("https://wa.me/553192518560", "_blank");
   };
 
   return (
@@ -27,16 +27,16 @@ const Hero = () => {
               Belo Horizonte e Região Metropolitana
             </span>
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Móveis Planejados
             <span className="block text-primary">em BH</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            Transforme seu ambiente com móveis planejados feitos sob medida, unindo{" "}
-            <span className="text-primary font-semibold">qualidade</span>,{" "}
-            <span className="text-primary font-semibold">estilo</span> e{" "}
+            Transforme seu ambiente com móveis planejados feitos sob medida,
+            unindo <span className="text-primary font-semibold">qualidade</span>
+            , <span className="text-primary font-semibold">estilo</span> e{" "}
             <span className="text-primary font-semibold">funcionalidade</span>.
           </p>
 
@@ -53,7 +53,11 @@ const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() =>
+                document
+                  .getElementById("about")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="text-lg border-white text-white hover:bg-white hover:text-secondary"
             >
               Conheça nosso trabalho

@@ -3,14 +3,11 @@ import { Phone, MessageCircle, Instagram } from "lucide-react";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-
     window.open("https://wa.me/553192518560", "_blank");
 
     window.open("https://wa.me/553192518560", "_blank");
- 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
 
     window.open("https://wa.me/553192518560", "_blank");
- 91158a5ad87d2e5c0c758afe1cb8a9056bcbc7fd
   };
 
   return (
