@@ -22,7 +22,9 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-sm shadow-md" : "bg-transparent"
+        isScrolled
+          ? "bg-background/95 backdrop-blur-sm shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
@@ -56,13 +58,13 @@ const Header = () => {
           </nav>
 
           <a
-            href="https://wa.me/5531926185560"
+            href="https://wa.me/553192518560"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-medium"
           >
             <Phone className="h-5 w-5" />
-            <span className="hidden sm:inline">(31) 92618-5560</span>
+            <span className="hidden sm:inline">(31) 9251-8560</span>
           </a>
         </div>
       </div>

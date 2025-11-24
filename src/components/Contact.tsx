@@ -3,11 +3,14 @@ import { Phone, MessageCircle, Mail } from "lucide-react";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5531926185560", "_blank");
+    window.open("https://wa.me/553192518560", "_blank");
   };
 
   return (
-    <section id="contact" className="py-20 bg-secondary text-white relative overflow-hidden">
+    <section
+      id="contact"
+      className="py-20 bg-secondary text-white relative overflow-hidden"
+    >
       {/* Decorative Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
@@ -20,8 +23,8 @@ const Contact = () => {
               Fale <span className="text-primary">Conosco</span>
             </h2>
             <p className="text-xl text-white/80 mb-8">
-              Tem um projeto em mente? Envie uma mensagem e responderemos o mais rápido
-              possível!
+              Tem um projeto em mente? Envie uma mensagem e responderemos o mais
+              rápido possível!
             </p>
           </div>
 
@@ -35,10 +38,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-2">Telefone</h3>
                   <a
-                    href="tel:+5531926185560"
+                    href="tel:+553192518560"
                     className="text-white/80 hover:text-primary transition-colors"
                   >
-                    (31) 92618-5560
+                    (31) 9251-8560
                   </a>
                 </div>
               </div>
@@ -65,7 +68,8 @@ const Contact = () => {
               Pronto para transformar seu ambiente?
             </h3>
             <p className="text-white/80 mb-8 text-lg">
-              Entre em contato agora e solicite seu orçamento personalizado sem compromisso!
+              Entre em contato agora e solicite seu orçamento personalizado sem
+              compromisso!
             </p>
             <Button
               variant="gold"

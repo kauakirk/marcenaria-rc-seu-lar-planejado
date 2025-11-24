@@ -16,10 +16,10 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <p className="text-white/80 mb-1">
               <a
-                href="tel:+5531926185560"
+                href="tel:+553192518560"
                 className="hover:text-primary transition-colors"
               >
-                (31) 92618-5560
+                (31) 9251-8560
               </a>
             </p>
             <p className="text-white/60 text-sm">
@@ -29,7 +29,10 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-6 border-t border-white/10 text-center text-white/60 text-sm">
-          <p>© {new Date().getFullYear()} Marcenaria RC. Todos os direitos reservados.</p>
+          <p>
+            © {new Date().getFullYear()} Marcenaria RC. Todos os direitos
+            reservados.
+          </p>
         </div>
       </div>
     </footer>
