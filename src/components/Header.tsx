@@ -56,13 +56,13 @@ const Header = () => {
           </nav>
 
           <a
-            href="https://wa.me/5531926185560"
+            href="https://wa.me/5531925185560"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-medium"
           >
             <Phone className="h-5 w-5" />
-            <span className="hidden sm:inline">(31) 92618-5560</span>
+            <span className="hidden sm:inline">(31) 9251-8560</span>
           </a>
         </div>
       </div>

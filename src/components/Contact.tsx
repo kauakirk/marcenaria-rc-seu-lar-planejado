@@ -3,7 +3,7 @@ import { Phone, MessageCircle, Mail } from "lucide-react";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5531926185560", "_blank");
+    window.open("https://wa.me/5531925185560", "_blank");
   };
 
   return (
@@ -35,10 +35,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-lg mb-2">Telefone</h3>
                   <a
-                    href="tel:+5531926185560"
+                    href="tel:+5531925185560"
                     className="text-white/80 hover:text-primary transition-colors"
                   >
-                    (31) 92618-5560
+                    (31) 9251-8560
                   </a>
                 </div>
               </div>
@@ -80,8 +80,11 @@ const Contact = () => {
 
           {/* Service Area */}
           <div className="mt-12 text-center">
+            <p className="text-white/80 mb-2">
+              📍 R. Argentina, 273 - Novo Boa Vista, Contagem - MG
+            </p>
             <p className="text-white/60 text-sm">
-              📍 Atendemos Belo Horizonte e toda a região metropolitana
+              Atendemos Belo Horizonte e toda a região metropolitana
             </p>
           </div>
         </div>

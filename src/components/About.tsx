@@ -10,7 +10,7 @@ const About = () => {
     {
       icon: Users,
       title: "Experiência Comprovada",
-      description: "Anos de expertise transformando ambientes em BH",
+      description: "Mais de 10 anos transformando ambientes em BH e região",
     },
     {
       icon: Wrench,
@@ -27,10 +27,10 @@ const About = () => {
             Sobre <span className="text-primary">nós</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Na Marcenaria RC, desenvolvemos móveis planejados com alto padrão de acabamento,
-            priorizando durabilidade, estética e aproveitamento inteligente de espaço. Nossa
-            equipe atua há anos no mercado oferecendo soluções personalizadas para residências
-            e empresas.
+            Com mais de 10 anos de experiência no mercado, a Marcenaria RC desenvolve móveis 
+            planejados com alto padrão de acabamento, priorizando durabilidade, estética e 
+            aproveitamento inteligente de espaço. Nossa equipe oferece soluções personalizadas 
+            para residências e empresas em Belo Horizonte e região metropolitana.
           </p>
         </div>
 
