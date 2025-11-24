@@ -1,13 +1,9 @@
 import { Button } from "./ui/button";
-import { Phone, MessageCircle, Mail } from "lucide-react";
+import { Phone, MessageCircle, Instagram } from "lucide-react";
 
 const Contact = () => {
   const handleWhatsAppClick = () => {
-<<<<<<< HEAD
-    window.open("https://wa.me/553192518560", "_blank");
-=======
     window.open("https://wa.me/5531925185560", "_blank");
->>>>>>> 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
   };
 
   return (
@@ -33,29 +29,28 @@ const Contact = () => {
           </div>
 
           {/* Contact Cards */}
-          <div className="grid md:grid-cols-2 gap-6 mb-12">
-            <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-primary/50 transition-all">
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <a
+              href="tel:+5531925185560"
+              className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-primary/50 transition-all cursor-pointer"
+            >
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center shrink-0">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-2">Telefone</h3>
-                  <a
-<<<<<<< HEAD
-                    href="tel:+553192518560"
-=======
-                    href="tel:+5531925185560"
->>>>>>> 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
-                    className="text-white/80 hover:text-primary transition-colors"
-                  >
+                  <p className="text-white/80 hover:text-primary transition-colors">
                     (31) 9251-8560
-                  </a>
+                  </p>
                 </div>
               </div>
-            </div>
+            </a>
 
-            <div className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-primary/50 transition-all">
+            <button
+              onClick={handleWhatsAppClick}
+              className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-primary/50 transition-all cursor-pointer text-left"
+            >
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center shrink-0">
                   <MessageCircle className="h-6 w-6 text-primary" />
@@ -67,7 +62,26 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </button>
+
+            <a
+              href="https://www.instagram.com/rc_marcenaria_bh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-primary/50 transition-all cursor-pointer"
+            >
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center shrink-0">
+                  <Instagram className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg mb-2">Instagram</h3>
+                  <p className="text-white/80 hover:text-primary transition-colors">
+                    @rc_marcenaria_bh
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
 
           {/* CTA */}
