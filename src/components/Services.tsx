@@ -65,16 +65,16 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-muted/30">
+    <section id="services" className="py-20 bg-muted/30 scroll-mt-20">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Nossos <span className="text-primary">Serviços</span>
+            Móveis Planejados Para Todos os <span className="text-primary">Ambientes</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Nossa marcenaria é referência em BH pela qualidade, pontualidade e acabamento
-            impecável.
+            Marcenaria referência em Belo Horizonte pela qualidade, pontualidade e acabamento
+            impecável em móveis sob medida.
           </p>
         </div>
 
@@ -85,9 +85,10 @@ const Services = () => {
             return (
               <div
                 key={index}
-                className="bg-card p-8 rounded-xl border-2 border-border hover:border-primary transition-all hover:shadow-xl group"
+                className="bg-card p-8 rounded-xl border-2 border-border hover:border-primary transition-all hover:shadow-xl hover:-translate-y-1 group animate-fade-in"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/70 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/70 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-3 transition-all">
                   <Icon className="h-8 w-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
@@ -99,21 +100,22 @@ const Services = () => {
 
         {/* Room-Specific Services */}
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-3xl font-bold text-center mb-12">
-            Móveis Planejados por <span className="text-primary">Ambiente</span>
-          </h3>
+          <h2 className="text-3xl font-bold text-center mb-12 animate-fade-in">
+            Soluções Completas em <span className="text-primary">Móveis Planejados</span> por Ambiente
+          </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {roomServices.map((service, index) => {
               const Icon = service.icon;
               return (
                 <div
                   key={index}
-                  className="bg-card p-6 rounded-lg border border-border hover:border-primary/50 transition-all hover:shadow-lg group cursor-pointer"
+                  className="bg-card p-6 rounded-lg border border-border hover:border-primary/50 transition-all hover:shadow-lg hover:-translate-y-1 group cursor-pointer animate-fade-in"
+                  style={{ animationDelay: `${index * 50}ms` }}
                 >
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 group-hover:scale-110 transition-all">
                     <Icon className="h-6 w-6 text-primary" />
                   </div>
-                  <h4 className="text-lg font-bold mb-2">{service.title}</h4>
+                  <h3 className="text-lg font-bold mb-2">{service.title}</h3>
                   <p className="text-sm text-muted-foreground">{service.description}</p>
                 </div>
               );
