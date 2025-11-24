@@ -13,24 +13,25 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Móveis planejados de luxo"
+          alt="Móveis planejados de luxo - Marcenaria RC em Belo Horizonte"
           className="w-full h-full object-cover"
+          loading="eager"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/80 to-secondary/60" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 pt-20">
-        <div className="max-w-3xl">
-          <div className="inline-block mb-4 px-4 py-2 bg-primary/20 backdrop-blur-sm rounded-full border border-primary/30">
+        <div className="max-w-3xl animate-fade-in">
+          <div className="inline-block mb-4 px-4 py-2 bg-primary/20 backdrop-blur-sm rounded-full border border-primary/30 animate-scale-in">
             <span className="text-primary font-semibold text-sm">
               Belo Horizonte e Região Metropolitana
             </span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Móveis Planejados
-            <span className="block text-primary">em BH</span>
+            Móveis Planejados Sob Medida
+            <span className="block text-primary">em Belo Horizonte</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
