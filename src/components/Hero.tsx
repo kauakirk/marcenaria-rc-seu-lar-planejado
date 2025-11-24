@@ -3,11 +3,8 @@ import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-kitchen.jpg";
 
 const Hero = () => {
-  const scrollToContact = () => {
-    const element = document.getElementById("contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/5531925185560", "_blank");
   };
 
   return (
@@ -47,7 +44,7 @@ const Hero = () => {
             <Button
               variant="gold"
               size="lg"
-              onClick={scrollToContact}
+              onClick={handleWhatsAppClick}
               className="text-lg group"
             >
               Solicite seu Orçamento

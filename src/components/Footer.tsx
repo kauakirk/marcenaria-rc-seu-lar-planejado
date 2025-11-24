@@ -1,3 +1,5 @@
+import { Instagram } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="bg-secondary text-white py-8 border-t border-white/10">
@@ -16,11 +18,7 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <p className="text-white/80 mb-2">
               <a
-<<<<<<< HEAD
-                href="tel:+553192518560"
-=======
                 href="tel:+5531925185560"
->>>>>>> 99fc4a57b5b5911ab255614cbaccafe8b8c77d0c
                 className="hover:text-primary transition-colors"
               >
                 (31) 9251-8560
@@ -29,9 +27,18 @@ const Footer = () => {
             <p className="text-white/60 text-sm mb-1">
               R. Argentina, 273 - Novo Boa Vista
             </p>
-            <p className="text-white/60 text-sm">
+            <p className="text-white/60 text-sm mb-2">
               Contagem - MG
             </p>
+            <a
+              href="https://www.instagram.com/rc_marcenaria_bh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-white/80 hover:text-primary transition-colors text-sm"
+            >
+              <Instagram className="h-4 w-4" />
+              @rc_marcenaria_bh
+            </a>
           </div>
         </div>
 
