@@ -58,7 +58,7 @@ const Header = () => {
           </nav>
 
           <a
-            href="https://wa.me/5531925185560"
+            href="https://wa.me/553192518560"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors font-medium"
