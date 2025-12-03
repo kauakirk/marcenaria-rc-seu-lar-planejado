@@ -4,6 +4,8 @@ const nextConfig = {
   swcMinify: true,
   pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
   trailingSlash: false,
+  poweredByHeader: false,
+  compress: true,
 };
 
 export default nextConfig;
