@@ -64,6 +64,12 @@ This project is built with:
 
 Simply open [Lovable](https://lovable.dev/projects/d4d1c262-97a1-4d06-800f-140b0f483df9) and click on Share -> Publish.
 
+## Vercel / Deployment notes
+
+- This project is configured to run on Vercel using Next.js. If you see an error about a missing `dist` directory, ensure the project settings don't force `dist` as the output directory.
+- We added `vercel.json` (outputDirectory `.next`) and a `vercel-build` script; Vercel normally auto-detects Next apps, so you can clear the Output Directory field in the project settings to let Vercel detect automatically.
+
+
 ## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
