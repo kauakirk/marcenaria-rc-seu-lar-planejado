@@ -12,7 +12,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroImage}
+          src={(heroImage as any).src ?? heroImage}
           alt="Móveis planejados de luxo - Marcenaria RC em Belo Horizonte"
           className="w-full h-full object-cover"
           loading="eager"
