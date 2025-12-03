@@ -1,31 +1,45 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-42372ed130431b0a.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
+  "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/hZXSoSYcAVA1356MKA8Id/_buildManifest.js",
+    "static/hZXSoSYcAVA1356MKA8Id/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-0b5d8249fb15f5f3.js",
+      "static/chunks/framework-64ad27b21261a9ce.js",
+      "static/chunks/main-88d9df055fc9c2ea.js",
+      "static/chunks/pages/index-91e359918d9e333d.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-0b5d8249fb15f5f3.js",
+      "static/chunks/framework-64ad27b21261a9ce.js",
+      "static/chunks/main-88d9df055fc9c2ea.js",
+      "static/chunks/pages/404-d7d4e79bce621af7.js"
+    ],
+    "/NotFound": [
+      "static/chunks/webpack-0b5d8249fb15f5f3.js",
+      "static/chunks/framework-64ad27b21261a9ce.js",
+      "static/chunks/main-88d9df055fc9c2ea.js",
+      "static/chunks/pages/NotFound-40f166c7453bcfc3.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-0b5d8249fb15f5f3.js",
+      "static/chunks/framework-64ad27b21261a9ce.js",
+      "static/chunks/main-88d9df055fc9c2ea.js",
+      "static/css/257b98ed07d1a674.css",
+      "static/chunks/pages/_app-2cd65809f43320c7.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-0b5d8249fb15f5f3.js",
+      "static/chunks/framework-64ad27b21261a9ce.js",
+      "static/chunks/main-88d9df055fc9c2ea.js",
+      "static/chunks/pages/_error-7a92967bea80186d.js"
     ]
   },
   "ampFirstPages": []
